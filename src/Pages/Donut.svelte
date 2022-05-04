@@ -3,19 +3,22 @@ import ApexCharts from 'apexcharts'
   var options = {
           series: [44, 55, 41, 17, 15],
           chart: {
-          type: 'donut',
-        },
-        responsive: [{
-          breakpoint: 480,
-          options: {
-            chart: {
-              width: '300'
-            },
-            legend: {
-              show:false,
+            type: 'donut',
+          },
+          dataLabels: {
+            enabled: false,
+          },
+          responsive: [{
+            breakpoint: 480,
+            options: {
+              chart: {
+                width: 300,
+              },
+              legend: {
+                show:false,
+              }
             }
-          }
-        }]
+          }]
     };
 
   let chart1;
