@@ -12,6 +12,7 @@ import ApexCharts from 'apexcharts'
               width: '300px'
             },
             legend: {
+              show:false,
               position: 'bottom'
             }
           }
