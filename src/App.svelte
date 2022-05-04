@@ -4,7 +4,7 @@ import Donut from './Pages/Donut.svelte'
 	export let name;
 </script>
 
-<main>
+<main class='scrollbar'>
 	<DoubleColumn/>
 	<Donut/>
 </main>
