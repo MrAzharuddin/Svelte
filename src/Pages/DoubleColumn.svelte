@@ -43,16 +43,16 @@ import ApexCharts from 'apexcharts'
         }, 
         grid: {
           show:false,
-          xaxis: {
-        lines: {
-            show: false
-        }
-    },   
-    yaxis: {
-        lines: {
-            show: false
-        }
-    },  
+          //       xaxis: {
+          //     lines: {
+          //         show: true
+          //     }
+          // },   
+          // yaxis: {
+          //     lines: {
+          //         show: true
+          //     }
+          // },  
           padding:{
             top:0,
             left:0,
@@ -114,5 +114,5 @@ import ApexCharts from 'apexcharts'
 </script>
 
 <main>
- <div use:renderCharts1 class="z-[-1] my-2 bg-gray-100 p-2 rounded-lg shadow-inner" />
+ <div use:renderCharts1 class="rounded-lg max-w-[33.33%] border-1 border-black" />
 </main>
