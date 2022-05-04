@@ -1,10 +1,11 @@
 <script>
 import DoubleColumn from './Pages/DoubleColumn.svelte'
+import Donut from './Pages/Donut.svelte'
 	export let name;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
 	<DoubleColumn/>
+	<Donut/>
 </main>
 
