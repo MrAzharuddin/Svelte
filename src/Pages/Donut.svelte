@@ -9,7 +9,7 @@ import ApexCharts from 'apexcharts'
           breakpoint: 480,
           options: {
             chart: {
-              width: '100%'
+              width: '300px'
             },
             legend: {
               position: 'bottom'
@@ -26,6 +26,7 @@ function renderCharts1(node) {
 }
 </script>
 
-<main>
+<main class='flex w-full overflow-scroll scrollbar'>
+ <div use:renderCharts1 class="z-[-1] my-2 bg-gray-100 p-2 rounded-lg shadow-inner" />
  <div use:renderCharts1 class="z-[-1] my-2 bg-gray-100 p-2 rounded-lg shadow-inner" />
 </main>

@@ -1,33 +1,32 @@
 <script>
 import ApexCharts from 'apexcharts'
   var options = {
-          series: [{
-          name: 'Males',
-          data: [1.2, 1.80, 3.2, 2.6, 3.9,0.8, 2.4 ]
-        },
-        {
-          name: 'Females',
-          data: [-2.8, -0.85, -4.06, -1.18, -2.4, -3.6, -2.2]
-        }
+        series: [{
+            name: 'Males',
+            data: [1.2, 1.80, 3.2, 2.6, 3.9,0.8, 2.4 ]
+          },
+          {
+            name: 'Females',
+            data: [-2.8, -0.85, -4.06, -1.18, -2.4, -3.6, -2.2]
+          }
         ],
-          chart: {
-          type: 'bar',
-          height: 440,
-          stacked: true
+        chart: {
+            type: 'bar',
+            height: 'auto',
+            stacked: true,
+            toolbar:{
+              show:false
+            }
         },
         colors: ['#04d9ff', '#baeb17'],
         plotOptions: {
           bar: {
             horizontal: false,
-            barHeight: '80%',
+            barHeight: '40%',
           },
         },
         dataLabels: {
           enabled: false,
-        },
-        stroke: {
-          width: 1,
-          colors: ["#fff"]
         },
         fill:{
           type:'gradient',
@@ -43,7 +42,29 @@ import ApexCharts from 'apexcharts'
         }, 
         grid: {
           show:false,
-        }
+        },
+        xaxis:{
+          axisBorder:{
+            show:false,
+            color:'#04d9ff'
+          },
+          labels:{
+            formatter: function (value){
+              return ""
+            }
+          }
+        },
+        yaxis:{
+          // axisBorder:{
+          //   show:'true',
+          //   color:'#04d9ff'
+          // },
+          labels:{
+            formatter: function (value){
+              return ""
+            }
+          }
+        },
   };
 
   let chart1;
