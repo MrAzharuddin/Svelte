@@ -114,5 +114,5 @@ import ApexCharts from 'apexcharts'
 </script>
 
 <main>
- <div use:renderCharts1 class="rounded-lg max-w-[33.33%] border-1 border-black" />
+ <div use:renderCharts1 class="rounded-lg w-full border-1 border-black max-h-[150px]" />
 </main>

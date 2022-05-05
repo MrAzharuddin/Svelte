@@ -1,5 +1,7 @@
 <script>
 import ApexCharts from 'apexcharts';
+import DoubleColumn from './DoubleColumn.svelte'
+import ProfilePassword from './ProfilePassword.svelte'
 window.ApexCharts = ApexCharts;
 
 let options1 = {
@@ -63,12 +65,14 @@ function renderCharts1(node) {
     chart1.render();
 }
 
-let crash = '/assets/crash.png'
+let crash = 'assets/crash.png'
 let helmet = '/assets/helmet.png'
 let sos = '/assets/sos.png'
 </script>
 
 <main class="text-white flex w-full">
+    <div class='w-[80px] h-[90vh] bg-[#1d1d1d] mx-[30px] my-[20px]'>
+    </div>
     <div class="flex-auto pr-14">
         <h1 class="text-3xl font-bold p-4">Analytics</h1>
         <div class="space-y-6 py-4 w-full">
@@ -98,7 +102,7 @@ let sos = '/assets/sos.png'
                 <div class="bg-black flex flex-col items-center justify-between flex-1 p-6 rounded-xl">
                     <div class="flex w-full justify-between items-center pb-4">
                         <div class="bg-[#2f2f2f] p-4 rounded-md">
-                            <img class="w-[30px]" src={sos} alt="/" >
+                            <img src={sos} alt="/" >
                         </div>
                         <h1 class="text-3xl font-bold">003</h1>
                     </div>
@@ -108,7 +112,7 @@ let sos = '/assets/sos.png'
                 <div class="bg-black flex flex-col items-center justify-between flex-1 p-6 rounded-xl">
                     <div class="flex w-full justify-between items-center pb-4">
                         <div class="bg-[#2f2f2f] p-4 rounded-md">
-                            <img class="w-[30px]" src={helmet} alt="">
+                            <img src={helmet} alt="">
                         </div>
                         <h1 class="text-3xl font-bold">003</h1>
                     </div>
@@ -118,7 +122,7 @@ let sos = '/assets/sos.png'
                 <div class="bg-black flex flex-col items-center justify-between flex-1 p-6 rounded-xl">
                     <div class="flex w-full justify-between items-center pb-4">
                         <div class="bg-[#2f2f2f] p-4 rounded-md">
-                            <img class="w-[30px]" src={crash} alt="">
+                            <img src={crash} alt="">
                         </div>
                         <h1 class="text-3xl font-bold">001</h1>
                     </div>
@@ -147,7 +151,7 @@ let sos = '/assets/sos.png'
                 </div>
                 <div class="flex-1">
                     <div class="bg-black flex-1 rounded-xl p-2">
-                        <div use:renderCharts1 class="z-[-1] my-2 bg-gray-100 p-2 rounded-lg shadow-inner" />
+                        <DoubleColumn/>
                     </div>
                 </div>
                 <div class="flex-1 border-l-2 border-[#0b7777]">
@@ -160,4 +164,5 @@ let sos = '/assets/sos.png'
             </div>
         </div>
     </div>
+    <ProfilePassword/>
 </main>
