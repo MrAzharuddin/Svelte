@@ -1,5 +1,5 @@
 <script>
-    let profilepic = '/assets/profile-pic.png'
+    let profilepic = 'https://stackblitz.com/files/node-bqtxnw/github/MrAzharuddin/Svelte/master/public/profile-pic.png'
 </script>
 <section class="py-5 px-14 bg-[#323232]">
     <div class="pt-[5.5rem]">

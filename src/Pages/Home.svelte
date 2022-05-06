@@ -67,7 +67,7 @@ function renderCharts1(node) {
 
 let crash = 'https://stackblitz.com/files/node-bqtxnw/github/MrAzharuddin/Svelte/master/public/crash.png'
 let helmet = 'https://stackblitz.com/files/node-bqtxnw/github/MrAzharuddin/Svelte/master/public/helmet.png'
-let sos = 'https://stackblitz.com/files/node-bqtxnw/github/MrAzharuddin/Svelte/master/public/s.png'
+let sos = 'https://stackblitz.com/files/node-bqtxnw/github/MrAzharuddin/Svelte/master/public/sos.png'
 </script>
 
 <main class="text-white flex w-full">
