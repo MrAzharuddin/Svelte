@@ -152,6 +152,7 @@ let sos = 'https://stackblitz.com/files/node-bqtxnw/github/MrAzharuddin/Svelte/m
                                 <p class="text-[#a5a5a5]">Hard Accel.</p>
                                 <p class="text-[#a5a5a5]">(7 Days)</p>
                             </div>
+                            
                         </div>
                         <div class="flex-1">
                             <div class="bg-black flex-1 rounded-xl p-2">
