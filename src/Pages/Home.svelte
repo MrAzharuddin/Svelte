@@ -51,9 +51,9 @@ let options1 = {
         curve: 'smooth'
     },
     title: {
-        text: 'Free Vs Apex',
+        text: 'Average Ride Duration',
         style: {
-            fontSize: '16px'
+            fontSize: '12px'
         }
     }
     grid:{
