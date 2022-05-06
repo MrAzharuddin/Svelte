@@ -25,7 +25,7 @@ function round(number) {
 <section class="w-[95%] overflow-x-hidden bg-black rounded-md my-[30px]">
     <div class="overflow-hidden space-y-4">
         <div class='absolute -mt-[30px] bg-black rounded-md'>
-            <div class='text-white px-6 py-2'>
+            <div class='text-white px-6 py-2 flex'>
                 <img src={filters} alt="filters icon">
                 <h1>All Rides</h1>
             </div>

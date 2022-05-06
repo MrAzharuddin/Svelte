@@ -704,6 +704,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(11 119 119 / var(--tw-border-opacity));
 }
 
+.bg-\[\#313131\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 49 49 / var(--tw-bg-opacity));
+}
+
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -724,9 +729,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(47 47 47 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#323232\] {
+.bg-\[\#707070\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(50 50 50 / var(--tw-bg-opacity));
+  background-color: rgb(112 112 112 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#343434\] {
@@ -737,16 +742,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#00c1c1\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 193 193 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#313131\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(49 49 49 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#707070\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(112 112 112 / var(--tw-bg-opacity));
 }
 
 .p-2 {
