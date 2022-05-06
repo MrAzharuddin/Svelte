@@ -2,11 +2,11 @@
 import ApexCharts from 'apexcharts'
   var options = {
         series: [{
-            name: 'Males',
+            name: 'Hard Acceleration',
             data: [1.2, 1.80, 3.2, 2.6, 3.9,0.8, 2.4 ]
           },
           {
-            name: 'Females',
+            name: 'Hard Breaking',
             data: [-2.8, -0.85, -4.06, -1.18, -2.4, -3.6, -2.2]
           }
         ],
@@ -114,5 +114,5 @@ import ApexCharts from 'apexcharts'
 </script>
 
 <main>
- <div use:renderCharts1 class="rounded-lg w-full border-1 border-black max-h-[150px]" />
+  <div use:renderCharts1 class="rounded-lg w-full border-1 border-black max-h-[150px] max-w-[260px]" />
 </main>
