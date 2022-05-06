@@ -9,6 +9,9 @@ let options1 = {
         id: 'chart1',
         height: 200,
         type: 'bar',
+        toolbar:{
+              show:false
+        }
         // stacked: true
     },
     dataLabels: {
