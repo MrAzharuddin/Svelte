@@ -14,7 +14,7 @@ import data from './Data'
 //     }
 // })
 
-let filters = '/assets/filter.pn'
+let filters = '/assets/filter.png'
 
 function round(number) {
     number = (Number(number) + Number.EPSILON) * 100
@@ -26,6 +26,7 @@ function round(number) {
     <div class="overflow-hidden space-y-4">
         <div class='absolute -mt-[30px] bg-black rounded-md'>
             <div class='text-white px-6 py-2'>
+                <img src={filters} alt="filters icon">
                 <h1>All Rides</h1>
             </div>
         </div>
