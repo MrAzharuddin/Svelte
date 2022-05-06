@@ -55,7 +55,7 @@ let options1 = {
         style: {
             fontSize: '12px'
         }
-    }
+    },
     grid:{
         show:false
     }
@@ -133,11 +133,11 @@ let sos = 'https://stackblitz.com/files/node-bqtxnw/github/MrAzharuddin/Svelte/m
 
             <div class="space-x-10 flex">
                 <div class="bg-black flex-1 rounded-xl p-2">
-                    <div use:renderCharts1 class="z-[-1] my-2 bg-gray-100 p-2 rounded-lg shadow-inner" />
+                    <div use:renderCharts1 class="z-[-1] rounded-lg shadow-inner" />
                 </div>
 
                 <div class="bg-black flex-1 rounded-xl p-2">
-                    <div use:renderCharts1 class="z-[-1] my-2 bg-gray-100 p-2 rounded-lg shadow-inner" />
+                    <div use:renderCharts1 class="z-[-1] rounded-lg shadow-inner" />
                 </div>
 
             </div>
