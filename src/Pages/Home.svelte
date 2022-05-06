@@ -31,11 +31,6 @@ let options1 = {
             name: 'TEAM A',
             type: 'bar',
             data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30]
-        },
-        {
-            name: 'TEAM B',
-            type: 'area',
-            data: [44, 55, 41, 67, 22, 43, 21, 41, 56, 27, 43]
         }
     ],
     xaxis: {
@@ -57,6 +52,9 @@ let options1 = {
         style: {
             fontSize: '16px'
         }
+    }
+    grid:{
+        show:false
     }
 };
 let chart1;
