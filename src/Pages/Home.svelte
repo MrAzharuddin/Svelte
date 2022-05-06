@@ -74,7 +74,7 @@ let sos = 'https://stackblitz.com/files/node-bqtxnw/github/MrAzharuddin/Svelte/m
 <main class="text-white flex w-full">
     <div class='w-[80px] h-[90vh] bg-[#1d1d1d] mx-[30px] my-[20px]'>
     </div>
-    <div>
+    <div class='flex'>
         <div class="flex-auto pr-14">
             <h1 class="text-3xl font-bold p-4">Analytics</h1>
             <div class="space-y-6 py-4 w-full">
