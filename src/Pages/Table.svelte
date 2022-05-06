@@ -14,7 +14,7 @@ import data from './Data'
 //     }
 // })
 
-let filters = '/assets/filter.png'
+let filters = 'https://github.com/MrAzharuddin/Svelte/blob/master/public/assets/filter.png'
 
 function round(number) {
     number = (Number(number) + Number.EPSILON) * 100
