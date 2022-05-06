@@ -485,21 +485,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.5rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.mx-\[10px\] {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 .mx-\[30px\] {
   margin-left: 30px;
   margin-right: 30px;
@@ -508,6 +493,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-\[20px\] {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .-mt-\[5\.5rem\] {
@@ -522,24 +517,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: grid;
 }
 
+.h-\[90vh\] {
+  height: 90vh;
+}
+
 .h-\[160px\] {
   height: 160px;
 }
 
 .h-\[1px\] {
   height: 1px;
-}
-
-.h-\[300px\] {
-  height: 300px;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
-}
-
-.h-\[90vh\] {
-  height: 90vh;
 }
 
 .max-h-\[150px\] {
@@ -550,8 +537,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
-.w-\[30px\] {
-  width: 30px;
+.w-\[80px\] {
+  width: 80px;
 }
 
 .w-\[160px\] {
@@ -562,16 +549,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 20rem;
 }
 
-.w-32 {
-  width: 8rem;
-}
-
-.w-\[80px\] {
-  width: 80px;
-}
-
-.max-w-\[33\.33\%\] {
-  max-width: 33.33%;
+.max-w-\[260px\] {
+  max-width: 260px;
 }
 
 .flex-auto {
@@ -679,6 +658,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#1d1d1d\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 29 29 / var(--tw-bg-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -702,11 +686,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#00c1c1\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 193 193 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#1d1d1d\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 29 29 / var(--tw-bg-opacity));
 }
 
 .p-2 {
