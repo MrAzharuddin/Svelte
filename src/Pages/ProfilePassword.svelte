@@ -1,7 +1,7 @@
 <script>
     let profilepic = 'https://stackblitz.com/files/node-bqtxnw/github/MrAzharuddin/Svelte/master/public/profile-pic.png'
 </script>
-<section class="py-5 px-14 bg-[#323232]">
+<section class="py-5 px-14 bg-[#707070]">
     <div class="pt-[5.5rem]">
         <div class="bg-black p-4  rounded-md relative" >
             <div class="rounded-full bg-black w-[160px] h-[160px] p-3 mx-auto -mt-[5.5rem]" >
