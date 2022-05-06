@@ -14,7 +14,7 @@ import data from './Data'
 //     }
 // })
 
-let filters = '/public/filter.png'
+let filters = '/assets/filter.png'
 
 function round(number) {
     number = (Number(number) + Number.EPSILON) * 100
